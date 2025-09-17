@@ -1,6 +1,8 @@
 # Rate Limiter
 
-A simple **rate limiter for Express.js** using the **Token Bucket algorithm**.  
+A simple **rate limiter for Express.js** 
+
+## **Token Bucket algorithm**.  
 Each client gets a token bucket that refills over time. If no tokens are available, the request is rejected with **429 Too Many Requests**.
 
 ---
